@@ -1,7 +1,8 @@
-var ephemeralKey = ~~(Math.random()*100000)
-var _numKey = ephemeralKey ^ 1;
-var _boolKey = ephemeralKey ^ 2;
-var _strKey = ephemeralKey ^ 4;;
+var pcount = 3;
+var ephemeralKey = ~~(Math.random()* (pcount+1))
+var _numKey = (ephemeralKey++ % pcount);
+var _boolKey = (ephemeralKey++ % pcount);
+var _strKey = (ephemeralKey++ % pcount);
 function EphemerallyKeyedPrivateSetterObject(){
   this[_numKey] = 0;
   this[_strKey] = '';

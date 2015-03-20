@@ -1,9 +1,9 @@
 
 ```
-SimpleObject x 74,637,202 ops/sec ±0.83% (82 runs sampled)
-ReadonlyObject x 73,417,279 ops/sec ±0.90% (79 runs sampled)
-NoProtoReadonlyObject x 206,286 ops/sec ±0.72% (87 runs sampled)
-ConventionPrivateSetterObject x 74,385,280 ops/sec ±0.81% (84 runs sampled)
-TruePrivateSetterObject x 118,682 ops/sec ±1.90% (81 runs sampled)
-EphemerallyKeyedPrivateSetterObject x 1,144,866 ops/sec ±0.65% (94 runs sampled)
+SimpleObject x 90,364,839 ops/sec ±0.94% (96 runs sampled)
+ReadonlyObject x 91,149,846 ops/sec ±0.76% (85 runs sampled)
+NoProtoReadonlyObject x 243,672 ops/sec ±0.81% (89 runs sampled)
+ConventionPrivateSetterObject x 90,324,662 ops/sec ±0.98% (93 runs sampled)
+TruePrivateSetterObject x 123,659 ops/sec ±1.85% (87 runs sampled)
+EphemerallyKeyedPrivateSetterObject x 4,375,344 ops/sec ±0.74% (90 runs sampled)
 ```
